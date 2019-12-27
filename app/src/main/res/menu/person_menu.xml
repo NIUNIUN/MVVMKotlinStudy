@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_info">
+        <item
+            android:id="@+id/menu_name"
+            android:title="姓名" />
+        <item
+            android:id="@+id/menu_sex"
+            android:title="性别" />
+    </group>
+
+    <group android:id="@+id/group_habit">
+        <item
+            android:id="@+id/menu_habit"
+            android:title="爱好" />
+        <item
+            android:id="@+id/menu_in"
+            android:title="兴趣" />
+    </group>
+</menu>
